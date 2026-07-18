@@ -1,0 +1,7 @@
+services:
+  crossembodiment-align:
+    build: .
+    network_mode: none
+    volumes:
+      - ./sample_output:/app/sample_output
+    command: ["python3", "run_demo.py"]

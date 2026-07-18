@@ -1,0 +1,4 @@
+embodiment_id,robot_type,action_dim,native_hz,target_hz,resample_factor,resample_action,resample_warning,gripper_convention,coord_frame
+bridge_v3_7dof,(missing),7,5,5,1.0000,none,,open=1,world
+franka_7dof,franka_panda,7,20,5,0.2500,downsample,downsampling 20Hz -> 5Hz drops ~75.0% of frames (information loss),open=1,robot_base
+so101_6dof,so101,6,20,5,0.2500,downsample,downsampling 20Hz -> 5Hz drops ~75.0% of frames (information loss),open=0,robot_base

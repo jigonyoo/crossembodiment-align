@@ -1,0 +1,42 @@
+{
+  "action_dim": 7,
+  "action_ranges": [
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "control_hz": 5,
+  "coord_frame": "world",
+  "embodiment_id": "bridge_v3_7dof",
+  "episode_count": 5000,
+  "frame_count": 900000,
+  "gripper_channel_index": 6,
+  "gripper_convention": "open=1",
+  "robot_type": "",
+  "units": "normalized"
+}

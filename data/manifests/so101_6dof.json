@@ -1,0 +1,38 @@
+{
+  "action_dim": 6,
+  "action_ranges": [
+    [
+      -3.14,
+      3.14
+    ],
+    [
+      -1.57,
+      1.57
+    ],
+    [
+      -1.57,
+      1.57
+    ],
+    [
+      -1.57,
+      1.57
+    ],
+    [
+      -1.57,
+      1.57
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "control_hz": 20,
+  "coord_frame": "robot_base",
+  "embodiment_id": "so101_6dof",
+  "episode_count": 800,
+  "frame_count": 96000,
+  "gripper_channel_index": 5,
+  "gripper_convention": "open=0",
+  "robot_type": "so101",
+  "units": "radians"
+}

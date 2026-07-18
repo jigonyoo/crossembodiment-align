@@ -1,0 +1,9 @@
+Cross-Embodiment Alignment run summary
+embodiments: 3 (bridge_v3_7dof, franka_7dof, so101_6dof)
+manifest validation flags: 1
+metadata flags: 2
+pairs scored: 3
+  bridge_v3_7dof <-> franka_7dof: score=0.5725 recommendation=do-not-mix
+  bridge_v3_7dof <-> so101_6dof: score=0.3175 recommendation=do-not-mix
+  franka_7dof <-> so101_6dof: score=0.7450 recommendation=mix-subset
+target_hz: 5
