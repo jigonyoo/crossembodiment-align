@@ -1,6 +1,16 @@
 # Cross-Embodiment Dataset Alignment & Mixability
 
-A freelance data/robotics-ops sample. Part of a robotics-ops bridge series.
+Answers whether several robot demonstration datasets can safely be mixed,
+from their manifests alone. It validates each embodiment's metadata, builds
+a per-pair normalization plan (action-space padding/truncation feasibility,
+gripper-convention unification, coordinate-frame consistency), analyzes
+control-frequency resampling with a warning on downsampling information
+loss, and detects metadata problems such as an empty `robot_type` field,
+inconsistent units, or an "inherited label" shared by embodiments with
+differing action_dim/control_hz. Every pair gets a 0-1 mixability score with
+the specific measured reasons and a `mix-all` / `mix-subset` / `do-not-mix`
+recommendation, plus an overall recommendation for the whole collection --
+all of it before any GPU time is spent.
 
 **Positioning:** this is written by a data engineer, not a robot-learning
 researcher. It answers one narrow, honest question -- *given the manifests
